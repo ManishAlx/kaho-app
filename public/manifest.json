@@ -1,0 +1,18 @@
+{
+  "name": "KAHO: Anonymous Q&A",
+  "short_name": "KAHO",
+  "description": "No filter. Just honesty. Zero identity. 100% truth.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06020a",
+  "theme_color": "#EC1187",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

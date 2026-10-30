@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="kahoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EC1187"/>
+      <stop offset="50%" stop-color="#FF4500"/>
+      <stop offset="100%" stop-color="#FF8D10"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Background Pill/Square -->
+  <rect width="512" height="512" rx="128" fill="url(#kahoGrad)"/>
+  
+  <!-- Subtle Inner Glow -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="4"/>
+  
+  <!-- Stylized Modern Bold "K" Speech Bubble Element -->
+  <g filter="url(#shadow)" fill="#ffffff">
+    <!-- Vertical Bar of K -->
+    <rect x="135" y="120" width="56" height="272" rx="28"/>
+    <!-- Upper Diagonal Arm -->
+    <path d="M195 245 L320 135 C332 124 350 128 358 142 C366 156 360 174 346 186 L250 270 L355 355 C368 366 371 385 360 398 C348 411 328 412 315 401 L195 305 Z"/>
+    <!-- Cute Secret Speech Dot / Wink -->
+    <circle cx="370" cy="120" r="16" fill="#FFE500"/>
+  </g>
+</svg>
